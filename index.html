@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Love - For My Beautiful Hania ❤️</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@1,600;1,700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <audio id="bg-music" loop autoplay>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <button id="music-toggle" class="music-btn pulse-glow">🎵 Play Music</button>
+
+    <canvas id="hearts-canvas"></canvas>
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="fullscreen-section">
+        <div class="content glass-card ant-gravity">
+            <h1 class="romantic-heading text-shadow">To My Beautiful WIFE <br><span class="wife-name">none</span> ❤️
+            </h1>
+            <p class="subheading">یہ نرم لہجہ، پیمانہ باتیں تیرے لیے ہیں۔ 🍂
+                ہم اس لہجے میں سب سے بات نہیں کرتے♥️</p>
+            <button class="cta-btn"
+                onclick="document.getElementById('slider-section').scrollIntoView({behavior: 'smooth'})">READ
+                MORE</button>
+        </div>
+    </section>
+
+    <!-- LOVE SLIDER SECTION -->
+    <section id="slider-section" class="section-padding scroll-reveal">
+        <div class="container">
+            <div class="slider-container glass-card ant-gravity-slight">
+                <div class="slider">
+                    <div class="slide active">
+                        <div class="heart-icon pulse-glow">❤️</div>
+                        <p class="slide-text">The day I met you, my life changed forever.</p>
+                    </div>
+                    <div class="slide">
+                        <div class="heart-icon pulse-glow">❤️</div>
+                        <p class="slide-text">Your smile is my favorite sunshine.</p>
+                    </div>
+                    <div class="slide">
+                        <div class="heart-icon pulse-glow">❤️</div>
+                        <p class="slide-text">With you, every moment feels magical.</p>
+                    </div>
+                    <div class="slide">
+                        <div class="heart-icon pulse-glow">❤️</div>
+                        <p class="slide-text">You are my heart, my soul, my everything.</p>
+                    </div>
+                    <div class="slide">
+                        <div class="heart-icon pulse-glow">❤️</div>
+                        <p class="slide-text">I will love you forever and always.</p>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn">❮</button>
+                    <button class="slider-btn next-btn">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MEMORY GALLERY -->
+    <section id="gallery" class="section-padding scroll-reveal">
+        <div class="container">
+            <h2 class="romantic-heading text-center text-shadow">Our Beautiful Moments</h2>
+            <div class="gallery-grid">
+                <div class="polaroid ant-gravity-slight">
+                    <img src="pic1.jpg" alt="Memory">
+                    <div class="caption">US</div>
+                </div>
+                <div class="polaroid ant-gravity-slight" style="animation-delay: 0.5s;">
+                    <img src="pic2.jpg" alt="Memory">
+                    <div class="caption">Together</div>
+                </div>
+                <div class="polaroid ant-gravity-slight" style="animation-delay: 1s;">
+                    <img src="pic3.jpg" alt="Memory">
+                    <div class="caption">Forever</div>
+                </div>
+                <div class="polaroid ant-gravity-slight" style="animation-delay: 1.5s;">
+                    <img src="pic4.jpeg" alt="Memory">
+                    <div class="caption">And</div>
+                </div>
+                <div class="polaroid ant-gravity-slight" style="animation-delay: 2s;">
+                    <img src="pic5.jpeg" alt="Memory">
+                    <div class="caption">Always</div>
+                </div>
+                <div class="polaroid ant-gravity-slight" style="animation-delay: 2.5s;">
+                    <img src="pic6.jpeg" alt="Memory">
+                    <div class="caption">EVER</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOVE COUNTER SECTION -->
+    <section id="counter-section" class="section-padding scroll-reveal">
+        <div class="container">
+            <div class="counters">
+                <div class="counter-box glass-card scale-pulse">
+                    <div class="heart-bg glow">❤️</div>
+                    <h3 class="counter" data-target="1825">0</h3>
+                    <p>Days Together</p>
+                </div>
+                <div class="counter-box glass-card scale-pulse" style="animation-delay: 0.3s;">
+                    <div class="heart-bg glow">❤️</div>
+                    <h3 class="counter" data-target="43830">0</h3>
+                    <p>Hours Loved</p>
+                </div>
+                <div class="counter-box glass-card scale-pulse" style="animation-delay: 0.6s;">
+                    <div class="heart-bg glow">❤️</div>
+                    <h3 class="counter" data-target="5 years+">0</h3>
+                    <p>Smiles Shared</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SURPRISE SECTION -->
+    <section id="surprise" class="section-padding scroll-reveal text-center">
+        <button id="surprise-btn" class="glowing-btn ant-gravity">Click for a Surprise ❤️</button>
+    </section>
+
+    <!-- Surprise Modal -->
+    <div id="surprise-modal" class="modal hidden">
+        <div class="modal-content glass-card ant-gravity">
+            <span class="close-btn" id="close-modal">&times;</span>
+            <div class="modal-body">
+                <h2 class="romantic-heading text-gradient">My Dear [WIFE_NAME],</h2>
+                <p class="romantic-text">
+                    You are the most beautiful part of my life.<br><br>
+                    I promise to love you more every single day.<br><br>
+                    <span class="signature">Forever Yours ❤️</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Made with ❤️ by Your Loving Husband</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
